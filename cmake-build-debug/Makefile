@@ -150,6 +150,33 @@ N2Algorithms.cpp.s:
 	$(MAKE) -f CMakeFiles/DS2_Sorting_Algorithms.dir/build.make CMakeFiles/DS2_Sorting_Algorithms.dir/N2Algorithms.cpp.s
 .PHONY : N2Algorithms.cpp.s
 
+NLogNAlgorithms.o: NLogNAlgorithms.cpp.o
+
+.PHONY : NLogNAlgorithms.o
+
+# target to build an object file
+NLogNAlgorithms.cpp.o:
+	$(MAKE) -f CMakeFiles/DS2_Sorting_Algorithms.dir/build.make CMakeFiles/DS2_Sorting_Algorithms.dir/NLogNAlgorithms.cpp.o
+.PHONY : NLogNAlgorithms.cpp.o
+
+NLogNAlgorithms.i: NLogNAlgorithms.cpp.i
+
+.PHONY : NLogNAlgorithms.i
+
+# target to preprocess a source file
+NLogNAlgorithms.cpp.i:
+	$(MAKE) -f CMakeFiles/DS2_Sorting_Algorithms.dir/build.make CMakeFiles/DS2_Sorting_Algorithms.dir/NLogNAlgorithms.cpp.i
+.PHONY : NLogNAlgorithms.cpp.i
+
+NLogNAlgorithms.s: NLogNAlgorithms.cpp.s
+
+.PHONY : NLogNAlgorithms.s
+
+# target to generate assembly for a file
+NLogNAlgorithms.cpp.s:
+	$(MAKE) -f CMakeFiles/DS2_Sorting_Algorithms.dir/build.make CMakeFiles/DS2_Sorting_Algorithms.dir/NLogNAlgorithms.cpp.s
+.PHONY : NLogNAlgorithms.cpp.s
+
 Utility.o: Utility.cpp.o
 
 .PHONY : Utility.o
@@ -216,6 +243,9 @@ help:
 	@echo "... N2Algorithms.o"
 	@echo "... N2Algorithms.i"
 	@echo "... N2Algorithms.s"
+	@echo "... NLogNAlgorithms.o"
+	@echo "... NLogNAlgorithms.i"
+	@echo "... NLogNAlgorithms.s"
 	@echo "... Utility.o"
 	@echo "... Utility.i"
 	@echo "... Utility.s"

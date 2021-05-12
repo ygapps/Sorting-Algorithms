@@ -3,4 +3,4 @@ project(DS2_Sorting_Algorithms)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(DS2_Sorting_Algorithms main.cpp cmake-build-debug/N2Algorithms.cpp cmake-build-debug/N2Algorithms.h cmake-build-debug/Utility.cpp cmake-build-debug/Utility.h)
+add_executable(DS2_Sorting_Algorithms main.cpp cmake-build-debug/N2Algorithms.cpp cmake-build-debug/N2Algorithms.h cmake-build-debug/Utility.cpp cmake-build-debug/Utility.h cmake-build-debug/NLogNAlgorithms.cpp cmake-build-debug/NLogNAlgorithms.h)
