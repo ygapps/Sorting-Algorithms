@@ -51,7 +51,7 @@ void NLogNAlgorithms:: mergeArray(int arr[],unsigned int low,unsigned int mid, u
         right[j] = arr[mid + 1 + j];
 
     }
-    unsigned int i=0,j=0,k=0;
+    unsigned int i=0,j=0,k=low;
     while(i < sz1 && j < sz2)
     {
          if (left[i] <= right[j]) {
