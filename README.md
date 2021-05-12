@@ -16,7 +16,7 @@ Rewan Sobhy Tasks:
 Youssef Gamal Tasks:
 
 1. Implement Insertion Sort in C++ ✅
-2. Implement Heap Sort in C++
+2. Implement Heap Sort in C++ ✅
 3. Calculate Running time of Each Sorting Algorithm with the Generated Arrays
 
 Common Task:
