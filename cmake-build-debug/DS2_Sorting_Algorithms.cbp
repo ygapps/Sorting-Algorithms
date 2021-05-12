@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/N2Algorithms.cpp">
+			<Option target="DS2_Sorting_Algorithms"/>
+		</Unit>
+		<Unit filename="/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/N2Algorithms.h">
+			<Option target="DS2_Sorting_Algorithms"/>
+		</Unit>
+		<Unit filename="/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/Utility.cpp">
+			<Option target="DS2_Sorting_Algorithms"/>
+		</Unit>
+		<Unit filename="/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/Utility.h">
+			<Option target="DS2_Sorting_Algorithms"/>
+		</Unit>
 		<Unit filename="/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/main.cpp">
 			<Option target="DS2_Sorting_Algorithms"/>
 		</Unit>

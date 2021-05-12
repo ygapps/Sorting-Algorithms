@@ -123,6 +123,60 @@ DS2_Sorting_Algorithms/fast:
 	$(MAKE) -f CMakeFiles/DS2_Sorting_Algorithms.dir/build.make CMakeFiles/DS2_Sorting_Algorithms.dir/build
 .PHONY : DS2_Sorting_Algorithms/fast
 
+N2Algorithms.o: N2Algorithms.cpp.o
+
+.PHONY : N2Algorithms.o
+
+# target to build an object file
+N2Algorithms.cpp.o:
+	$(MAKE) -f CMakeFiles/DS2_Sorting_Algorithms.dir/build.make CMakeFiles/DS2_Sorting_Algorithms.dir/N2Algorithms.cpp.o
+.PHONY : N2Algorithms.cpp.o
+
+N2Algorithms.i: N2Algorithms.cpp.i
+
+.PHONY : N2Algorithms.i
+
+# target to preprocess a source file
+N2Algorithms.cpp.i:
+	$(MAKE) -f CMakeFiles/DS2_Sorting_Algorithms.dir/build.make CMakeFiles/DS2_Sorting_Algorithms.dir/N2Algorithms.cpp.i
+.PHONY : N2Algorithms.cpp.i
+
+N2Algorithms.s: N2Algorithms.cpp.s
+
+.PHONY : N2Algorithms.s
+
+# target to generate assembly for a file
+N2Algorithms.cpp.s:
+	$(MAKE) -f CMakeFiles/DS2_Sorting_Algorithms.dir/build.make CMakeFiles/DS2_Sorting_Algorithms.dir/N2Algorithms.cpp.s
+.PHONY : N2Algorithms.cpp.s
+
+Utility.o: Utility.cpp.o
+
+.PHONY : Utility.o
+
+# target to build an object file
+Utility.cpp.o:
+	$(MAKE) -f CMakeFiles/DS2_Sorting_Algorithms.dir/build.make CMakeFiles/DS2_Sorting_Algorithms.dir/Utility.cpp.o
+.PHONY : Utility.cpp.o
+
+Utility.i: Utility.cpp.i
+
+.PHONY : Utility.i
+
+# target to preprocess a source file
+Utility.cpp.i:
+	$(MAKE) -f CMakeFiles/DS2_Sorting_Algorithms.dir/build.make CMakeFiles/DS2_Sorting_Algorithms.dir/Utility.cpp.i
+.PHONY : Utility.cpp.i
+
+Utility.s: Utility.cpp.s
+
+.PHONY : Utility.s
+
+# target to generate assembly for a file
+Utility.cpp.s:
+	$(MAKE) -f CMakeFiles/DS2_Sorting_Algorithms.dir/build.make CMakeFiles/DS2_Sorting_Algorithms.dir/Utility.cpp.s
+.PHONY : Utility.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... DS2_Sorting_Algorithms"
+	@echo "... N2Algorithms.o"
+	@echo "... N2Algorithms.i"
+	@echo "... N2Algorithms.s"
+	@echo "... Utility.o"
+	@echo "... Utility.i"
+	@echo "... Utility.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/N2Algorithms.h
+
+/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/Utility.h
+iostream
+-
+
+/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/main.cpp
+iostream
+-
+cmake-build-debug/N2Algorithms.h
+/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/N2Algorithms.h
+cmake-build-debug/Utility.h
+/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/Utility.h
+

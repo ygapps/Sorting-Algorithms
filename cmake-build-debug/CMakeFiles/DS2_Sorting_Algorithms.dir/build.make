@@ -70,17 +70,47 @@ CMakeFiles/DS2_Sorting_Algorithms.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS2_Sorting_Algorithms.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/main.cpp" -o CMakeFiles/DS2_Sorting_Algorithms.dir/main.cpp.s
 
+CMakeFiles/DS2_Sorting_Algorithms.dir/N2Algorithms.cpp.o: CMakeFiles/DS2_Sorting_Algorithms.dir/flags.make
+CMakeFiles/DS2_Sorting_Algorithms.dir/N2Algorithms.cpp.o: N2Algorithms.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DS2_Sorting_Algorithms.dir/N2Algorithms.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DS2_Sorting_Algorithms.dir/N2Algorithms.cpp.o -c "/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/N2Algorithms.cpp"
+
+CMakeFiles/DS2_Sorting_Algorithms.dir/N2Algorithms.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS2_Sorting_Algorithms.dir/N2Algorithms.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/N2Algorithms.cpp" > CMakeFiles/DS2_Sorting_Algorithms.dir/N2Algorithms.cpp.i
+
+CMakeFiles/DS2_Sorting_Algorithms.dir/N2Algorithms.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS2_Sorting_Algorithms.dir/N2Algorithms.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/N2Algorithms.cpp" -o CMakeFiles/DS2_Sorting_Algorithms.dir/N2Algorithms.cpp.s
+
+CMakeFiles/DS2_Sorting_Algorithms.dir/Utility.cpp.o: CMakeFiles/DS2_Sorting_Algorithms.dir/flags.make
+CMakeFiles/DS2_Sorting_Algorithms.dir/Utility.cpp.o: Utility.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DS2_Sorting_Algorithms.dir/Utility.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DS2_Sorting_Algorithms.dir/Utility.cpp.o -c "/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/Utility.cpp"
+
+CMakeFiles/DS2_Sorting_Algorithms.dir/Utility.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS2_Sorting_Algorithms.dir/Utility.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/Utility.cpp" > CMakeFiles/DS2_Sorting_Algorithms.dir/Utility.cpp.i
+
+CMakeFiles/DS2_Sorting_Algorithms.dir/Utility.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS2_Sorting_Algorithms.dir/Utility.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/Utility.cpp" -o CMakeFiles/DS2_Sorting_Algorithms.dir/Utility.cpp.s
+
 # Object files for target DS2_Sorting_Algorithms
 DS2_Sorting_Algorithms_OBJECTS = \
-"CMakeFiles/DS2_Sorting_Algorithms.dir/main.cpp.o"
+"CMakeFiles/DS2_Sorting_Algorithms.dir/main.cpp.o" \
+"CMakeFiles/DS2_Sorting_Algorithms.dir/N2Algorithms.cpp.o" \
+"CMakeFiles/DS2_Sorting_Algorithms.dir/Utility.cpp.o"
 
 # External object files for target DS2_Sorting_Algorithms
 DS2_Sorting_Algorithms_EXTERNAL_OBJECTS =
 
 DS2_Sorting_Algorithms: CMakeFiles/DS2_Sorting_Algorithms.dir/main.cpp.o
+DS2_Sorting_Algorithms: CMakeFiles/DS2_Sorting_Algorithms.dir/N2Algorithms.cpp.o
+DS2_Sorting_Algorithms: CMakeFiles/DS2_Sorting_Algorithms.dir/Utility.cpp.o
 DS2_Sorting_Algorithms: CMakeFiles/DS2_Sorting_Algorithms.dir/build.make
 DS2_Sorting_Algorithms: CMakeFiles/DS2_Sorting_Algorithms.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable DS2_Sorting_Algorithms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable DS2_Sorting_Algorithms"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DS2_Sorting_Algorithms.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
