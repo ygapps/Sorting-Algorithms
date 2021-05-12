@@ -3,8 +3,8 @@ Data Structures 2 Assignment
 
 Ahmed Ossama Tasks:
 
-1. Implement Selection Sort in C++
-2. Implement Quick Sort in C++
+1. Implement Selection Sort in C++ ✅
+2. Implement Quick Sort in C++ ✅
 3. Plot in Excel
 
 Rewan Sobhy Tasks: 
