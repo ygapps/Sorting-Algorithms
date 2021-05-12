@@ -35,7 +35,7 @@ void NLogNAlgorithms::mergeSort(int *arr,unsigned int low,unsigned int high)
     else
         return;
 }
-void NLogNAlgorithms::void mergeArray(int arr[],unsigned int low,unsigned int mid, unsigned int high)
+void NLogNAlgorithms:: mergeArray(int arr[],unsigned int low,unsigned int mid, unsigned int high)
 {
     unsigned int sz1=mid-low+1;
     unsigned int sz2=high-mid;
