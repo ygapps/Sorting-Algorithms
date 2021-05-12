@@ -4,6 +4,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
+#include <math.h>
 #include "Utility.h"
 
 void Utility::displayArray(int *arr, int n) {
