@@ -4,10 +4,14 @@
 CMakeFiles/DS2_Sorting_Algorithms.dir/N2Algorithms.cpp.o: N2Algorithms.cpp
 CMakeFiles/DS2_Sorting_Algorithms.dir/N2Algorithms.cpp.o: N2Algorithms.h
 
+CMakeFiles/DS2_Sorting_Algorithms.dir/NLogNAlgorithms.cpp.o: NLogNAlgorithms.cpp
+CMakeFiles/DS2_Sorting_Algorithms.dir/NLogNAlgorithms.cpp.o: NLogNAlgorithms.h
+
 CMakeFiles/DS2_Sorting_Algorithms.dir/Utility.cpp.o: Utility.cpp
 CMakeFiles/DS2_Sorting_Algorithms.dir/Utility.cpp.o: Utility.h
 
 CMakeFiles/DS2_Sorting_Algorithms.dir/main.cpp.o: N2Algorithms.h
+CMakeFiles/DS2_Sorting_Algorithms.dir/main.cpp.o: NLogNAlgorithms.h
 CMakeFiles/DS2_Sorting_Algorithms.dir/main.cpp.o: Utility.h
 CMakeFiles/DS2_Sorting_Algorithms.dir/main.cpp.o: ../main.cpp
 
