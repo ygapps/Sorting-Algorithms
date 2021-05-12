@@ -13,17 +13,24 @@ void Utility::displayArray(int *arr, int n) {
     std::cout << std::endl;
 }
 
-
-int Utility:: randomArrayGenerator()
+double Utility:: generateRandomSize()
 {
-   unsigned int sizeArray[5]={10,100,1000,10000,100000};
-    srand ( time(NULL) ); //initialize the random seed
-    int RandIndex = rand() % 5; //generates a random number between 0 and 4
-    int randArray[sizeArray[RandIndex]];
-    for(unsigned int i=0;i<sizeArray[RandIndex];i++)
+     srand ( time(NULL) ); //initialize the random seed
+    double exponent= (rand()% 5)+1.0; //generates a random number between 1 and 5
+    cout<<exponent<<"\n"<<pow(10.0,exponent)<<"\n";
+   double arr_size=pow(10.0,exponent);
+   return arr_size;
+}
+
+int Utility:: * randomArrayGenerator(unsigned int *arr_size)
+{
+    
+     int *randArray=new int [*arr_size];
+    srand((unsigned) time (NULL));
+    for(unsigned int i=0;i<(*arr_size);i++)
     {
         randArray[i]=rand();
     }
-
-  return *randArray;
+    return randArray;
+   
 }
