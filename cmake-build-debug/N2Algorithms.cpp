@@ -20,10 +20,17 @@ void N2Algorithms::selectionSort(int *arr, int n) {
     }
 }
 
-void N2Algorithms::bubbleSort(int *arr, int n) {
-    // TODO: REWAN SOBHY TASK
-
+void N2Algorithms:: bubbleSort(int *arr,unsigned int n)
+{
+   unsigned int i, j;
+    for (i = 0; i < n-1; i++)    
+     
+    // Last i elements are already in place
+    for (j = 0; j < n-i-1; j++)
+        if (arr[j] > arr[j+1])
+            swap(arr[j], arr[j+1]);
 }
+ 
 
 void N2Algorithms::insertionSort(int *arr, int n) {
     int i, key, j;
