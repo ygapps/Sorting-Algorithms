@@ -35,6 +35,56 @@ void NLogNAlgorithms::mergeSort(int *arr,unsigned int low,unsigned int high)
     else
         return;
 }
+void NLogNAlgorithms::void mergeArray(int arr[],unsigned int low,unsigned int mid, unsigned int high)
+{
+    unsigned int sz1=mid-low+1;
+    unsigned int sz2=high-mid;
+    //create sub arrays
+    int left[sz1] , right[sz2];
+    // copy data of original array into sub arrays
+    for(unsigned int i =0;i<sz1;i++)
+    {
+        left[i]=arr[low + i];
+    }
+    for (unsigned int j = 0; j <sz2; j++)
+    {
+        right[j] = arr[mid + 1 + j];
+
+    }
+    unsigned int i=0,j=0,k=0;
+    while(i < sz1 && j < sz2)
+    {
+         if (left[i] <= right[j]) {
+            arr[k] = left[i];
+            i++;
+        }
+        else {
+            arr[k] = right[j];
+            j++;
+        }
+         k++;
+    }
+    // Copy the remaining elements of
+    // left[], if there are any
+    while (i < sz1) {
+        arr[k] = left[i];
+        i++;
+        k++;
+    }
+
+    // Copy the remaining elements of
+    // R[], if there are any
+    while (j < sz2) {
+        arr[k] = right[j];
+        j++;
+        k++;
+    }
+}
+void printArray(int A[], int size)
+{
+    for (int i = 0; i < size; i++)
+        cout << A[i] << " ";
+}
 
 void NLogNAlgorithms::heapSort(int *arr, int n) {
 
