@@ -9,7 +9,7 @@
 class N2Algorithms {
 public:
     static void selectionSort(int *arr, int n);
-    static void bubbleSort(int *arr, int n);
+    static void bubbleSort(int *arr, unsigned int n);
     static void insertionSort(int *arr, int n);
 };
 
