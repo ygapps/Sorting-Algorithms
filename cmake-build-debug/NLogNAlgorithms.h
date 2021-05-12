@@ -15,7 +15,7 @@ public:
     static void mergeSort(int *arr,unsigned int low,unsigned int high);
     static void mergeArray(int arr[],unsigned int low,unsigned int mid, unsigned int high);
     static void heapSort(int *arr, int n);
-    static void quickSort(int *arr, int n);
+    static void quickSort(int *arr, int low, int high);
 };
 
 
