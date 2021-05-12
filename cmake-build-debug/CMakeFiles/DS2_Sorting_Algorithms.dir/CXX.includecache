@@ -8,10 +8,6 @@
 
 /Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/N2Algorithms.h
 
-/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/NLogNAlgorithms.cpp
-NLogNAlgorithms.h
-/Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/NLogNAlgorithms.h
-
 /Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/NLogNAlgorithms.h
 algorithm
 -
@@ -22,6 +18,8 @@ iostream
 
 /Users/Youssef/CLionProjects/DS2 Sorting Algorithms/main.cpp
 iostream
+-
+chrono
 -
 cmake-build-debug/N2Algorithms.h
 /Users/Youssef/CLionProjects/DS2 Sorting Algorithms/cmake-build-debug/N2Algorithms.h
