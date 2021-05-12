@@ -23,9 +23,17 @@ void NLogNAlgorithms::heapify(int *arr, int n, int i) {
     }
 }
 
-void NLogNAlgorithms::mergeSort(int *arr, int n) {
-    // TODO: REWAN SOBHY TASK
-
+void NLogNAlgorithms::mergeSort(int *arr,unsigned int low,unsigned int high)
+{
+    if(low<high)
+    {
+       unsigned int mid=(low+high)/2;
+        mergeSort(arr,low,mid);
+        mergeSort(arr,(mid+1),high);
+        mergeArray(arr,low,mid,high);
+    }
+    else
+        return;
 }
 
 void NLogNAlgorithms::heapSort(int *arr, int n) {
