@@ -10,8 +10,8 @@ Ahmed Ossama Tasks:
 Rewan Sobhy Tasks: 
 
 1. Implement Bubble Sort in C++
-2. Implement Merge Sort in C++
-3. Generate Random Arrays in C++ with different sizes (n)
+2. Implement Merge Sort in C++ ✅
+3. Generate Random Arrays in C++ with different sizes (n) ✅
 
 Youssef Gamal Tasks:
 
