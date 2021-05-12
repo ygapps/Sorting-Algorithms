@@ -11,6 +11,7 @@
 class Utility {
 public:
     static void displayArray(int *arr, int n);
+    static int randomArrayGenerator();
 };
 
 
