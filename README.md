@@ -1,4 +1,4 @@
-# Sorting-Algorithms
+# Sorting Algorithms
 Data Structures 2 Assignment
 
 Ahmed Ossama Tasks:
