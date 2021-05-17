@@ -27,8 +27,8 @@ int * Utility::randomArrayGenerator(unsigned int *arr_size)
     
     int *randArray=new int [*arr_size];
     srand((unsigned) time (NULL));
-    for(unsigned int i=0;i<(*arr_size);i++) {
-        randArray[i]=rand();
+    for (unsigned int i=0;i<(*arr_size);i++) {
+        randArray[i]=rand() % 10000;
     }
     return randArray;
 }

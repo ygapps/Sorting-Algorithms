@@ -8,12 +8,22 @@ using namespace std;
 using namespace chrono;
 
 int main() {
-    int unsortedArray[] = {3, 6, 1, 7, 9};
-    int size = sizeof(unsortedArray) / sizeof(unsortedArray[0]);
+
+    unsigned int size = 100000;
+    int * unsortedArray = Utility::randomArrayGenerator(&size);
+
+//    Utility::displayArray(unsortedArray, size);
 
     auto start = high_resolution_clock::now();
 
-    NLogNAlgorithms::quickSort(unsortedArray, 0 , size - 1);
+//    NLogNAlgorithms::mergeSort(unsortedArray, 0, size - 1);
+//    NLogNAlgorithms::heapSort(unsortedArray, size - 1);
+//    NLogNAlgorithms::quickSort(unsortedArray, 0, size - 1);
+//
+//
+//    N2Algorithms::selectionSort(unsortedArray, size);
+//    N2Algorithms::bubbleSort(unsortedArray, size);
+      N2Algorithms::insertionSort(unsortedArray, size);
 
     auto stop = high_resolution_clock::now();
     auto duration = duration_cast<nanoseconds>(stop - start);
@@ -21,7 +31,7 @@ int main() {
     cout << "Time taken by process: "
          << duration.count() << " nanoseconds" << endl;
 
-    Utility::displayArray(unsortedArray, size);
+//    Utility::displayArray(unsortedArray, size);
 
     return 0;
 }
