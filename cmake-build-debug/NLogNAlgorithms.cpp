@@ -80,10 +80,9 @@ void NLogNAlgorithms:: mergeArray(int arr[],unsigned int low,unsigned int mid, u
         k++;
     }
 }
-void printArray(int A[], int size)
-{
+void printArray(int A[], int size) {
     for (int i = 0; i < size; i++)
-        cout << A[i] << " ";
+        std::cout << A[i] << " ";
 }
 
 void NLogNAlgorithms::heapSort(int *arr, int n) {
@@ -97,29 +96,28 @@ void NLogNAlgorithms::heapSort(int *arr, int n) {
     }
 }
 
+int NLogNAlgorithms::partition(int *arr, int low, int high) {
+    int pivot_index = arr[high];
+    int j = low - 1;
+    for(int i = 0; i < high; i++) {
+       if(arr[i] < arr[pivot_index]) {
+          j++;
+          std::swap(arr[i],arr[j]);
+       }
+    }
+
+    j++;
+    std::swap(arr[j],arr[pivot_index]);
+    return j;
+}
 
 void NLogNAlgorithms::quickSort(int *arr, int low, int high) {
     // TODO: AHMED OSSAMA TASK
-    if(low<high)
-    {
-        int pivot_index = partition(arr,low,high);
-        quickSort(arr,low,pivot_index-1);
-        quickSort(arr,pivot_index+1,high);
+    if(low < high) {
+      int pivot_index = partition(arr, low, high);
+      quickSort(arr, low, pivot_index - 1);
+      quickSort(arr, pivot_index + 1, high);
     }
-    
 }
-int partition(int *arr, int low, int high){
-    int pivot_index = arr[high];
-    int j = low-1;
-    for(int i=0; i<high; i++)
-    {
-        if(arr[i]<arr[pivot_index])
-        {
-            j++;
-            swap(arr[i],arr[j]);
-        }
-    }
-    j++;
-    swap(arr[j],arr[pivot_index]);
-    return j;
-}
+
+
